@@ -12,7 +12,6 @@ app = Flask(__name__)
 
 
 def identify(img_path, thresh=0.3):
-    # jasmine's api key: only used 3 id
     your_api_key = "rLGVjfad2327BNuznXIHsIttJzt1GEzqQpvU1cKoieAoUrkp7Q"
 
     '''img_path(str): path to image to be identified
