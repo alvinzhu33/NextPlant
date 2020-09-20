@@ -1,0 +1,128 @@
+ html {
+     min-height: 100%;
+ }
+ 
+ body {
+    height: 100%;
+    background-image: url('../img/bottom-background.jpg');
+    background-position: center bottom;
+    background-repeat: repeat-x;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#title {
+    text-align: center;
+    color: #558263;
+}
+
+.titleWrap {
+    padding: 20px 0 20px 0;
+    background: #ffb7c350;
+}
+
+.uploadPhoto {
+    background-color: #bedacbd5;
+    padding: 10px 10px 0 10px;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.uploadDescr {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #e67a73;
+    font-weight: bold;
+}
+
+#imgUpload {
+    overflow: hidden;
+}
+
+.form-row > * {/*:not(:last-child) {*/
+    margin-bottom: 10px;
+}
+
+.homeDescr {
+    margin-top: 50px;
+}
+
+
+
+.flowerInfo {
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+
+.custom-file {
+    width: auto;
+}
+
+.sciName {
+    font-style: italic;
+    color: gray;
+    margin-top: -10px;
+}
+
+.buttonRow {
+    margin-bottom: 80px;
+}
+
+.wikipediaURL > a {
+    display: inline-block;
+    float: right;
+    margin-right: 35px;
+    color: #e67a73;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px #e67a73 solid;
+    background: #ffffffa5
+}
+
+.wikipediaURL > a:hover {
+    text-decoration: underline;
+}
+
+.amazonURL > a {
+    display: inline-block;
+    float: left;
+    margin-left: 35px;
+    color: #e67a73;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px #e67a73 solid;
+    background: #ffffffa5;
+}
+
+.amazonURL > a:hover {
+    text-decoration: underline;
+}
+
+
+.funfact {
+    color: #e67a73;
+    font-weight: bold;
+}
+
+.funfactWrap {
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    text-transform: none;
+}
+
+.imgWrap {
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.imgWrap > img {
+    border-radius: 10px;    
+    max-width: 90%;
+    width: 300px;
+    height: auto;
+}

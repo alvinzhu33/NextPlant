@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Next Plant Info
+{% endblock %}
+
+{% block body %}
+<div class='flowerInfo'>
+    <h3>
+        {{ commonName }}
+    </h3>
+    <p class='sciName'>
+        ( {{ name }} )
+    </p>
+</div>
+
+<div class="imgWrap">
+    <img src="{{ url_for('static', filename=filePath) }}" alt="Your image" >
+</div>
+
+<div class='flowerInfo'>
+    <div>
+        {% for sentence in fact %}
+        <p class='funfactWrap'>
+            <span class='funfact'>Fun Fact:</span> {{ sentence[0] }}
+        </p>
+        {% endfor %}
+    </div>
+    <div class="buttonRow">
+        <div class="amazonURL"><a href="{{ amazon }}">Buy Seeds</a></div>
+        <div class="wikipediaURL"><a href="{{ url }}">Learn more!</a></div>
+    </div>
+</div>
+{% endblock %}
+
+{% block upload %}
+    Identify Another Plant
+{% endblock %}
